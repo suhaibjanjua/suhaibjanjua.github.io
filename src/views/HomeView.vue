@@ -3,7 +3,7 @@
   <MenuVue :links="links">> # ~ / nikita<span class="prim">r</span></MenuVue>
   <HeroSection id="hero" pic="header.png">
     <template v-slot:welcome>Welcome!</template>
-    My name is <b>Nikita Rusetskii</b> and I'm a
+    My name is <b>Suhaib Janjua</b> and I'm a
     <hi-word>software engineer</hi-word>. My passion is building
     <hi-word>web applications</hi-word> and
     <hi-word>designing websites</hi-word> using modern frameworks. Also I'm
@@ -91,7 +91,7 @@ export default {
           url: "https://github.com/suhaibjanjua",
         },
       ],
-      copyright: "2022 Nikita Rusetskii",
+      copyright: "2024 Suhaib Janjua",
     };
   },
   components: {

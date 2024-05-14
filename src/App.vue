@@ -1,136 +1,70 @@
+<script setup lang="ts">
+import { RouterLink, RouterView } from 'vue-router'
+import Logo from '@/assets/images/gatuma-logo.png'
+</script>
+
 <template>
-  <metainfo> </metainfo>
-
-  <div
-    class="scrollspy-example"
-    data-bs-offset="0"
-    data-bs-spy="scroll"
-    data-bs-target="#main-nav"
-    tabindex="0"
-  >
-    <!-- Render active component contents with vue transition -->
-    <transition name="fade" mode="out-in">
-      <router-view />
-    </transition>
-
-    <!-- Scroll to top -->
-    <back-to-top
-      visibleoffset="500"
-      right="30px"
-      bottom="20px"
-      class="shadow-lg"
-    >
-      <i data-feather="chevron-up"></i>
-    </back-to-top>
+  <div class="sm:max-w-6xl sm:mx-auto text-gray-500 py-5 transition-all">
+    <!-- Header -->
+    <div id="header" class="flex w-full justify-between px-2 sm:p-0">
+      <!-- Logo -->
+      <div id="logo">
+        <img class="h-10" :src="Logo" alt="" />
+      </div>
+      <!-- Nav -->
+      <div id="nav-menu" class="hidden sm:flex gap-10">
+        <div class="text-white">
+          <RouterLink to="/">Home</RouterLink>
+        </div>
+        <div>
+          <RouterLink to="/about">About</RouterLink>
+        </div>
+        <div>
+          <RouterLink to="/about">Works</RouterLink>
+        </div>
+        <div>
+          <RouterLink to="/about">Contact</RouterLink>
+        </div>
+      </div>
+      <!-- CTA Button -->
+      <div id="cta-btn">
+        <a
+          href="#"
+          class="bg-gray-700 text-white px-6 py-3 rounded-xl hover:bg-white hover:text-gray-700 transition-all"
+        >
+          Let's Talk
+        </a>
+      </div>
+    </div>
+    <!-- Router view -->
+    <div class="my-10 sm:my-20 px-4 xl:p-0">
+      <RouterView />
+    </div>
+    <!-- Footer -->
+    <div class="flex flex-col items-center gap-8">
+      <!-- Logo -->
+      <div id="logo">
+        <img class="h-12" :src="Logo" alt="" />
+      </div>
+      <!-- Nav -->
+      <div id="nav-menu" class="flex gap-10">
+        <div class="text-white">
+          <RouterLink to="/">Home</RouterLink>
+        </div>
+        <div>
+          <RouterLink to="/about">About</RouterLink>
+        </div>
+        <div>
+          <RouterLink to="/about">Works</RouterLink>
+        </div>
+        <div>
+          <RouterLink to="/about">Contact</RouterLink>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="text-gray-500">
+        © 2023 <a href="#" class="text-blue-500">Gatuma</a>. All rights reserved.
+      </div>
+    </div>
   </div>
 </template>
-<script>
-// aos
-// import AOS from "aos";
-// import "aos/dist/aos.css";
-import { useMeta } from "vue-meta";
-
-export default {
-  data: () => {
-    return {
-      webTitle: "Suhaib Janjua - Backend Developer",
-    };
-  },
-  setup() {
-    useMeta({
-      title: "Suhaib Janjua - Backend Developer",
-      description: "Just a guy with passion for coding",
-      htmlAttrs: {
-        lang: "en",
-        amp: true,
-      },
-      twitter: {
-        title: "Suhaib Janjua - Backend Developer",
-        description: "Just a guy with passion for coding",
-        card: "summary_large_image",
-        image: "https://rusetskii.dev" + require(`@/assets/images/preview.jpg`),
-      },
-      og: {
-        title: "Suhaib Janjua - Backend Developer",
-        description: "Just a guy with passion for coding",
-        type: "website",
-        url: "https://rusetskii.dev/",
-        image: "https://rusetskii.dev" + require(`@/assets/images/preview.jpg`),
-        site_name: "Suhaib Janjua - Backend Developer",
-      },
-      meta: [
-        {
-          name: "keywords",
-          content:
-            "software developer, software engineer, backend developer, fullstack developer, machine learning engineer, AI researcher, developer portfolio",
-        },
-        {
-          name: "author",
-          content: "Suhaib Janjua",
-        },
-      ],
-      link: [
-        {
-          rel: "icon",
-          href: require(`@/assets/images/favicon.png`),
-        },
-      ],
-    });
-  },
-  // mounted() {
-  //   AOS.init();
-  // },
-};
-</script>
-<style lang="scss">
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  position: relative;
-  font-family: $default-family;
-  font-size: $default-font-size;
-}
-
-::-webkit-scrollbar {
-  width: 9px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #363636;
-}
-
-::-webkit-scrollbar-track {
-  background: #fff;
-}
-
-.btn {
-  border-width: 1px;
-  cursor: pointer;
-  justify-content: center;
-  padding: calc(0.5em - 1px) 1em;
-  text-align: center;
-  white-space: nowrap;
-  -webkit-appearance: none;
-  align-items: center;
-  border-radius: 4px;
-  box-shadow: none;
-  display: inline-flex;
-  font-size: 1rem;
-  height: 2.5em;
-  line-height: 1.5;
-  position: relative;
-  vertical-align: top;
-}
-
-.btn-primary {
-  color: white;
-}
-
-a,
-a:active,
-a:visited {
-  text-decoration: none !important;
-}
-</style>

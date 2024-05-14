@@ -15,7 +15,7 @@
                 <nuxt-link to="toolbox" class="mr-4">ToolBox</nuxt-link>                    
                 <!-- <nuxt-link to="/" class="flex mr-4 tracking-tighter">SaaS<strong>CAMP</strong><small class="text-xs tracking-tighter leading-tight"> - for Founders</small></nuxt-link> -->
             </div>
-            <a href="mailto:meetluckyadogun@gmail.com" class="focus:outline-none lg:hidden" @click="darkMode = !darkMode"><mail-icon size="1.5x" class=""></mail-icon></a>           
+            <a href="mailto:suhaib.janjua@gmail.com" class="focus:outline-none lg:hidden" @click="darkMode = !darkMode"><mail-icon size="1.5x" class=""></mail-icon></a>           
         </div>        
     </div>
 </template>

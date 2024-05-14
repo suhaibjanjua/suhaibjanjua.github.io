@@ -13,7 +13,7 @@
                 </p>
                 <p class="accordion__body p-4">
                     I also work with solo, non-tech founders without a CTO as a side-kick in helping them make better tech-inclined business decisions. 
-                    If that sounds like something you are interested in, feel free to reach out via <a class="font-medium underline text-theme-tertiary" href="mailto:meetluckyadogun@gmail.com">email</a>
+                    If that sounds like something you are interested in, feel free to reach out via <a class="font-medium underline text-theme-tertiary" href="mailto:suhaib.janjua@gmail.com">email</a>
                 </p>                    
             </div>
         </div>
@@ -51,7 +51,7 @@
                     to those it serves. This helps me keep my creative juice flowing and avoid burn-out.
                 </p>
                 <p class="accordion__body p-4">
-                    If you have more questions, feel free to reach out via <a class="font-medium underline text-theme-tertiary" href="mailto:meetluckyadogun@gmail.com">email</a>
+                    If you have more questions, feel free to reach out via <a class="font-medium underline text-theme-tertiary" href="mailto:suhaib.janjua@gmail.com">email</a>
                 </p>
             </div>
         </div>
@@ -70,7 +70,7 @@
                     I am constantly learning and trying new things out so keep an eye on my <a target="_blank" class="font-medium underline text-theme-tertiary" href="https://blog.luckyadogun.com">blog.</a>
                 </p>
                 <p class="accordion__body p-4">
-                    If you find any of my <a target="_blank" class="font-medium underline text-theme-tertiary" href="https://github.com/luckyadogun">open source projects</a> interesting and want to collaborate, feel free to reach me via <a class="font-medium underline text-theme-tertiary" href="mailto:meetluckyadogun@gmail.com">email</a> and we can hopefully work together.
+                    If you find any of my <a target="_blank" class="font-medium underline text-theme-tertiary" href="https://github.com/suhaib.janjua">open source projects</a> interesting and want to collaborate, feel free to reach me via <a class="font-medium underline text-theme-tertiary" href="mailto:suhaib.janjua@gmail.com">email</a> and we can hopefully work together.
                 </p>
             </div>
         </div>
@@ -86,7 +86,7 @@
                     people who would be happy to use your exisiting solution instead of building theirs. That's what SaaS is about.                    
                 </p>
                 <p class="accordion__body p-4">
-                    If you find that idea stricking, shoot me an <a class="font-medium underline text-theme-tertiary" href="mailto:meetluckyadogun@gmail.com">email</a> 
+                    If you find that idea stricking, shoot me an <a class="font-medium underline text-theme-tertiary" href="mailto:suhaib.janjua@gmail.com">email</a> 
                     and I would help glad to help you learn more about how it can be of benefit for your business.
                 </p>
             </div>

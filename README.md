@@ -4,15 +4,15 @@ Created by: **Suhaib Janjua**
 
 [![Visits Badge](https://badges.pufler.dev/visits/luckyadogun/zencoder)](https://badges.pufler.dev)
 
-LICENSE: **GNU GPLv3: https://github.com/luckyadogun/zencoder/blob/main/LICENSE**
+LICENSE: **GNU GPLv3: https://github.com/suhaibjanjua/suhaibjanjua.github.io/blob/main/LICENSE**
 
 A portfolio website for developers
 
 ### version 2: (coming soon)
-![version 2](https://github.com/luckyadogun/zencoder/blob/main/Site_new_home_dm-1.png "Portfolio Home Screen")
+![version 2](https://github.com/suhaibjanjua/suhaibjanjua.github.io/blob/main/Site_new_home_dm-1.png "Portfolio Home Screen")
 
 DARK MODE
-![version 2 Dark](https://github.com/luckyadogun/zencoder/blob/main/Site_new_home_dm.png "Portfolio Home Screen")
+![version 2 Dark](https://github.com/suhaibjanjua/suhaibjanjua.github.io/blob/main/Site_new_home_dm.png "Portfolio Home Screen")
 * ReactJS
 * Figma
 * FastAPI 
@@ -22,7 +22,7 @@ DARK MODE
 * Heroku
 
 ### version 1:
-![version 1](https://github.com/luckyadogun/zencoder/blob/main/port_old.png "Portfolio Home Screen")
+![version 1](https://github.com/suhaibjanjua/suhaibjanjua.github.io/blob/main/port_old.png "Portfolio Home Screen")
 
 Built With: 
 * VueJS/NuxtJS 

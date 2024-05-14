@@ -2,7 +2,7 @@ export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   ssr: false,
   head: {
-    title: 'Lucky Adogun',
+    title: 'Suhaib Janjua',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

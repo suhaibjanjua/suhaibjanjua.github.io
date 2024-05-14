@@ -1,6 +1,6 @@
 # zencoder
 
-Created by: **Lucky Adogun**
+Created by: **Suhaib Janjua**
 
 [![Visits Badge](https://badges.pufler.dev/visits/luckyadogun/zencoder)](https://badges.pufler.dev)
 

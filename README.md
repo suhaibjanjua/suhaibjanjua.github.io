@@ -1,74 +1,49 @@
-# Vue Tailwindcss Portfolio Template
+# zencoder
 
-This is a grid style dark themed portfolio especially designed with devs in mind. It is based on Vue3 and TailwindCSS. Feel free to contribute and fork.
+Created by: **Lucky Adogun**
 
-View demo here: [https://gatuma.me/](https://gatuma.me)
+[![Visits Badge](https://badges.pufler.dev/visits/luckyadogun/zencoder)](https://badges.pufler.dev)
 
-> Inspired by [Gridx wordpress theme](https://wpriverthemes.com/gridx)
+LICENSE: **GNU GPLv3: https://github.com/luckyadogun/zencoder/blob/main/LICENSE**
 
-<a href=#><img src="src/assets/images/screenshot.png"></a>
+A portfolio website for developers
 
-## Recommended IDE Setup
+### version 2: (coming soon)
+![version 2](https://github.com/luckyadogun/zencoder/blob/main/Site_new_home_dm-1.png "Portfolio Home Screen")
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+DARK MODE
+![version 2 Dark](https://github.com/luckyadogun/zencoder/blob/main/Site_new_home_dm.png "Portfolio Home Screen")
+* ReactJS
+* Figma
+* FastAPI 
+* Cloudinary 
+* SQLAlchemy 
+* Netlify
+* Heroku
 
-## Type Support for `.vue` Imports in TS
+### version 1:
+![version 1](https://github.com/luckyadogun/zencoder/blob/main/port_old.png "Portfolio Home Screen")
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+Built With: 
+* VueJS/NuxtJS 
+* Figma 
+* TailwindCSS 
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Build Setup
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+```bash
+# install dependencies
+$ npm install
 
-## Customize configuration
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+# build for production and launch server
+$ npm run build
+$ npm run start
 
-## Project Setup
-
-```sh
-npm install
+# generate static project
+$ npm run generate
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

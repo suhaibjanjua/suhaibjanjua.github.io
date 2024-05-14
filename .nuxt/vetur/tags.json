@@ -1,0 +1,44 @@
+{
+  "Accordion": {
+    "description": "Auto imported from components/Accordion.vue"
+  },
+  "LazyAccordion": {
+    "description": "Auto imported from components/Accordion.vue"
+  },
+  "Button": {
+    "description": "Auto imported from components/Button.vue"
+  },
+  "LazyButton": {
+    "description": "Auto imported from components/Button.vue"
+  },
+  "Card": {
+    "description": "Auto imported from components/Card.vue"
+  },
+  "LazyCard": {
+    "description": "Auto imported from components/Card.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "LazyHeader": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "LazyLogo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "SocialMedia": {
+    "description": "Auto imported from components/SocialMedia.vue"
+  },
+  "LazySocialMedia": {
+    "description": "Auto imported from components/SocialMedia.vue"
+  }
+}

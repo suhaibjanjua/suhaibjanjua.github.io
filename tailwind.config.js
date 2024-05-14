@@ -1,23 +1,25 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
-  ],
-  safelist: [
-    'sm:col-span-1',
-    'sm:col-span-2',
-    'sm:col-span-4',
-    'col-span-1',
-    'col-span-2',
-    'col-span-4',
-    'hover:cursor-pointer',
-    'flex-col',
-    'justify-end'
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-
+    darkMode: 'class',
+    theme: {
+      extend: {
+        colors: {
+          'theme-dark': '#0D0E10',
+          'theme-secondary': '#8B8B8B',
+          'theme-tertiary': '#EF8236',
+          'theme-cta': '#E5E5E5',
+        }
+      }
+    },
+    variants: {},
+    plugins: [],
+    purge: {
+      enabled: process.env.NODE_ENV === 'production',
+      content: [
+        'components/**/*.vue',
+        'layouts/**/*.vue',
+        'pages/**/*.vue',
+        'plugins/**/*.js',
+        'nuxt.config.js'
+      ]
+    }
+  }

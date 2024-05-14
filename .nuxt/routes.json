@@ -3,21 +3,18 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/suhaibjanjua/Workspace/github/_projects/suhaibjanjua.github.io/pages/about.vue",
-    "chunkName": "pages/about",
-    "_name": "_7e840a66"
+    "chunkName": "pages/about"
   },
   {
     "name": "toolbox",
     "path": "/toolbox",
     "component": "/Users/suhaibjanjua/Workspace/github/_projects/suhaibjanjua.github.io/pages/toolbox.vue",
-    "chunkName": "pages/toolbox",
-    "_name": "_0daaf773"
+    "chunkName": "pages/toolbox"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/suhaibjanjua/Workspace/github/_projects/suhaibjanjua.github.io/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_3f1454dc"
+    "chunkName": "pages/index"
   }
 ]

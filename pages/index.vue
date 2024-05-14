@@ -9,7 +9,7 @@
         </h1>
         <p class="my-5 mb-10 text-sm xl:text-lg md:text-md tracking-tight md:px-12 lg:px-30 text-center font-semibold text-theme-secondary">
           I have built many MVPs, for many clients, even for the
-          <span class="font-bold text-white">Government of Nigeria <br class="hidden lg:block">under the Ministry of Budget and Urban Planning. </span>
+          <span class="font-bold text-white">Government of Pakistan <br class="hidden lg:block">under the Punjab Safe Cities Authority. </span>
           If they can trust me, maybe, so can you.
         </p>
         <Button class="mb-16" cta='Get Free Access' />

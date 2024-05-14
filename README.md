@@ -1,8 +1,8 @@
-# zencoder
+# suhaibjanjua.github.io
 
 Created by: **Suhaib Janjua**
 
-[![Visits Badge](https://badges.pufler.dev/visits/luckyadogun/zencoder)](https://badges.pufler.dev)
+[![Visits Badge](https://badges.pufler.dev/visits/suhaibjanjua/suhaibjanjua.github.io)](https://badges.pufler.dev)
 
 LICENSE: **GNU GPLv3: https://github.com/suhaibjanjua/suhaibjanjua.github.io/blob/main/LICENSE**
 

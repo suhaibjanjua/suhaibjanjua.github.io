@@ -46,6 +46,6 @@ jobs:
         env:
           REPO: self
           BRANCH: gh-pages
-          FOLDER: dist
+          FOLDER: docs
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MESSAGE: "deploy website"

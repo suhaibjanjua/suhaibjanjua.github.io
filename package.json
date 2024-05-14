@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "npm run prebuild && nuxt build && npm run postbuild",
-    "prebuild": "export NODE_OPTIONS=--openssl-legacy-provider",
-    "postbuild": "mv dist docs && cd docs && rm README.md",
+    "build": "npm run prebuild && npm run postbuild",
+    "prebuild": "export NODE_OPTIONS=--openssl-legacy-provider && nuxt build",
+    "postbuild": "rm dist/README.md && rm -rf docs/* && cp -r dist/* docs/",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },

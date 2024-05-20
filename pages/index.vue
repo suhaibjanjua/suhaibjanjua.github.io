@@ -4,13 +4,12 @@
         <img class="inline object-cover w-24 h-24 mr-2 rounded-full bg-white" :src="mainPhoto"/>
         <h1 class="my-5 text-lg font-bold">Hi, I'm Suhaib👋</h1>
         <h1 class="my-5 text-4xl md:text-5xl lg:text-6xl lg:px-32 xl:px-56 tracking-tighter leading-tight md:leading-none text-center font-bold">
-          Free Tools, Tips & Techniques for Founders to Build and Launch <span class="italic">Low-Cost</span> 
-          <span class="text-theme-tertiary underline">Scalable</span> SaaS MVPs 10X Faster
+          Elevate your business with <span class="italic">Premium</span> software solutions tailored just <span class="text-theme-tertiary underline">for YOU</span>. I specialize in crafting success-driven applications.
         </h1>
-        <p class="my-5 mb-10 text-sm xl:text-lg md:text-md tracking-tight md:px-12 lg:px-30 text-center font-semibold text-theme-secondary">
-          I have built many MVPs, for many clients, even for the
-          <span class="font-bold text-white">Government of Pakistan <br class="hidden lg:block">under the Punjab Safe Cities Authority. </span>
-          If they can trust me, maybe, so can you.
+        <p class="my-5 mb-10 text-sm xl:text-lg md:text-md tracking-tight md:px-12 lg:px-30 text-center font-semibold text-theme-secondary">          
+          Turn your tech dreams into reality with my 
+          <span class="font-bold text-white">innovation-driven approach.<br class="hidden lg:block">Let's fuel your growth, </span>
+          one seamless solution at a time.
         </p>
         <Button class="mb-16" cta='Get Free Access' />
         
